@@ -1,8 +1,8 @@
 const mongoose=require('mongoose');
 
 mongoose.connect('mongodb://127.0.0.1:27017/student_tasks')
-.then(()=>console.log('Database connected'))
-.catch(()=>console.log('database not connected'))
+.then(()=>console.log('MongoDB Database connected'))
+.catch(()=>console.log('MongoDB Database not connected'))
 
 const taskSchema=new mongoose.Schema({
     name:String,

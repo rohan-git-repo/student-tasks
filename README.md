@@ -5,8 +5,7 @@ git clone https://github.com/rohan-git-repo/student-tasks.git
 
 cd student-tasks
 
-npm i express cors mongoose
+npm i express cors mongoose live-server
 
 node server
 
-open index.html
